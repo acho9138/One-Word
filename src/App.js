@@ -2,7 +2,7 @@ import { Jumbotron } from './components';
 
 function App() {
   return (
-    <Jumbotron />
+    <Jumbotron title='Hello' />
   );
 }
 
