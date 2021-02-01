@@ -1,8 +1,11 @@
-import { Jumbotron } from './components';
+import { Jumbotron, Navbar } from './components';
 
 function App() {
   return (
-    <Jumbotron title='Hello' />
+    <>
+      <Navbar />
+      <Jumbotron title='Hello' />
+    </>
   );
 }
 
